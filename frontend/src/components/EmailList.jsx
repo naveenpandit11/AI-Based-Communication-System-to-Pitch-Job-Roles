@@ -96,7 +96,7 @@ export default function EmailList() {
             onClick={() => navigate(`/job/${userId}`)}
             className="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-lg text-sm font-medium transition"
           >
-            ➕ Add Job
+             Add Job
           </button>
         </nav>
     <div className="max-w-4xl mx-auto mt-10 p-6">

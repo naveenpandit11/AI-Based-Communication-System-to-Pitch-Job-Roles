@@ -23,4 +23,4 @@ app.use("/api/user", userLogRoutes);
 app.use("/api/jobs",jobRoutes);
 app.use("/api/emails",emailRoutes);
 
-app.listen(7001, () => console.log("Backend running on http://localhost:7001"));
+app.listen(7001, () => console.log("Backend running!"));

@@ -38,6 +38,13 @@ export default function MainPage() {
         >
           Generate Mail
         </button>
+        <button
+          onClick={() => navigate(`/emails/${userId}`)}
+          className="mt-4 w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition"
+        >
+          Emails
+
+        </button>
       </div>
     </div>
   );
